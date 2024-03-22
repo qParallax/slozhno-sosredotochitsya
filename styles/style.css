@@ -85,7 +85,7 @@
   outline: none;
   border: 0;
   min-width: 70px;
-  background-color: transparent;  
+  background-color: transparent;
   color: var(--ui-color);
   font-size: 1.125rem;
   font-weight: 400;
@@ -300,11 +300,8 @@
   }
 
   .cover__description {
-    margin-right: 20px;
-  }
-
-  .cover__description {
     margin-left: 384px;
+    margin-right: 20px;
   }
 
   .main__content {
