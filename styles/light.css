@@ -15,6 +15,8 @@
   --ui-color: #353430;
   --main-text-color: #353430;
   --accent-text-color: #353430;
+  --body-color: #FFF1F7;
+  --button-color: rgba(50, 49, 45, 0.4);
   --backgorund-image: url(../images/cover-image-light.png);
 }
 
@@ -23,16 +25,18 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .page.theme_auto {
+  .page {
     --accent-color: #FF8DCB;
     --color-title: #FFC2E6;
     --color-text: #353430;
     --ui-color: #353430;
     --accent-text-color: #353430;
+    --body-color: #FFF1F7;
+    --button-color: rgba(50, 49, 45, 0.4);
     --backgorund-image: url(../images/cover-image-light.png);
   }
 
-  .theme_auto .header .rec {
+  .header .rec {
     visibility: hidden;
   }
 }

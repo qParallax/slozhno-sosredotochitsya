@@ -14,16 +14,20 @@
   --color-text: #000028;
   --ui-color: #ff0070;
   --accent-text-color: #F1B2CE;
+  --body-color: #000028;
+  --button-color: rgba(50, 49, 45, 0.4);
   --backgorund-image: url(../images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
-  .page.theme_auto {
+  .page {
     --accent-color: #ff0070;
     --color-title: #DB00FF;
     --color-text: #000028;
     --ui-color: #ff0070;
     --accent-text-color: #F1B2CE;
+    --body-color: #000028;
+    --button-color: rgba(50, 49, 45, 0.4);
     --backgorund-image: url(../images/cover-image-dark.png);
   }
 }
