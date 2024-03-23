@@ -15,7 +15,9 @@
   --ui-color: #ff0070;
   --accent-text-color: #F1B2CE;
   --body-color: #000028;
-  --button-color: rgba(50, 49, 45, 0.4);
+  --button-color: rgba(255, 0, 112, 0.4);
+  --link-color: #F1B2CE;
+  --text-shadow-accent: #FF0070;
   --backgorund-image: url(../images/cover-image-dark.png);
 }
 
@@ -27,7 +29,9 @@
     --ui-color: #ff0070;
     --accent-text-color: #F1B2CE;
     --body-color: #000028;
-    --button-color: rgba(50, 49, 45, 0.4);
+    --button-color: rgba(255, 0, 112, 0.4);
+    --link-color: #F1B2CE;
+    --text-shadow-accent: #FF0070;
     --backgorund-image: url(../images/cover-image-dark.png);
   }
 }
